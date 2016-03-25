@@ -1,7 +1,4 @@
-import pandas as pd
-from geopy.geocoders import Nominatim
-import geocoder
-import time
+import geocoder, time, pandas as pd
 
 USAGE_LIMIT = 10 # Requests per second
 
